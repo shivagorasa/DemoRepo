@@ -67,7 +67,8 @@ Here, create a Jenkins user, here I'm using Jenkins as admin user
 
 After the configuration is completed, you should see the Jenkins dashboard.
 
-![alt text](<Project 1/outputs/Jenkins dash.png>)(Jenkins dash.png)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/f63e8238-92d5-45ec-baec-1c9f1ae1c1ab)
+
 
 ## Step 7:Add AWS credentials in Jenkins
 
@@ -77,7 +78,8 @@ GO to the Manage Jenkins>>Credentials>>system>>Global credentials
 
 Then add credentials and here add AWS username and password and account ID
 
-![!\[alt text\](image.png)](<Project 1/outputs/aws cred.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/670bdc9b-334a-4d64-a902-27240e28d0a4)
+
 
 
 ## Step 8:Install Docker on Ubuntu 22.04 LTS
@@ -107,7 +109,8 @@ Go to the manage Jenkins>>Plugins>>Available Plugin
 
 Lets Create AWS ECR repository to push this image so Go to AWS ECR repository and created with name **samplewebappecr**
 
-![alt text](<Project 1/outputs/samplewebappecr.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/f05bbda7-4ab1-4a62-a1e2-8b49c992aa3d)
+
 
 ## Step #11:Create AmazonEC2ContainerRegistryFullAccess IAM Role in AWS
 
@@ -278,7 +281,8 @@ Enter the SMTP server name under ‘Email Notification’. Click the ‘Advanced
 * Use SSL : Checked
 * SMTP Port: 465
 
-![alt text](<Project 1/outputs/email.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/edd9054f-2a57-4500-87b7-47f88da7f18a)
+
 
 ## After this click on build now in jenkins pipeline we see following output if everything goes well
 
@@ -440,28 +444,33 @@ Finished: SUCCESS
 
 ## Jenkins Output 
 
-![!\[alt text\](image.png)](<Project 1/outputs/build success.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/71922b9f-3e8a-47f4-8e1d-ec582928ad90)
+
 
 ## Modify security groups to allow access to required ports
 
-![!\[alt text\](image.png)](<Project 1/outputs/security groups.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/4f33e303-0bd1-4a29-92d5-7785a3eb5225)
+
 
 ## Now lets Check ECR Repo our image push or not
 
-![alt text](<Project 1/outputs/ecr output.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/4c83c38e-60d9-49fd-99a3-76e51bd31e5e)
+
 
 ## Email Notification:
 
-![!\[alt text\](image.png)](<Project 1/outputs/email output.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/770a6ae3-d24a-435b-95bb-e7f51bc514cf)
 
 
 ## we can access our app running on port 8000
 
-![!\[alt text\](image.png)](<Project 1/outputs/docker ps.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/d20de53f-4329-4458-9a1a-71c899cb851e)
+
 
 ## App running on port 8000 can be accessed as follows:
 
-![!\[alt text\](image.png)](<Project 1/outputs/app running.png>)
+![image](https://github.com/shivagorasa/DemoRepo/assets/97184376/30c4853c-9be2-4c42-b716-0d93f3d01458)
+
 
 
 ## Conclusion:
